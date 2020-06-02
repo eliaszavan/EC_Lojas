@@ -1,0 +1,90 @@
+MySQL:
+ host: localhost:3306
+ database: test
+ usuario: root
+ senha: ""
+ 
+MundoPermitido: 'plotworld'
+
+Messages:
+   ResetError: '&cNão há lojas para resetar.'
+   Resetar: '&cVocê resetou as lojas de todos os jogadores.'
+   Reload: '&aPlugin recarregado com sucesso.'
+   Console: '&cApenas jogadores podem fazer isso.'
+   Permission: '&cVocê não tem permissão para fazer isto.'
+   Error: '&cUm erro ocorreu, tente novamente.'
+   Teleported: '&aVocê foi teleportado para o local da sua loja.'
+   Deleted: '&aVocê deletou sua loja com sucesso.'
+   Closed: '&aVocê fechou sua loja com sucesso.'
+   Opened: '&aVocê abriu sua loja com sucesso.'
+   World Error: '&cSua loja deve estar no mundo plot.'
+   Plot Owner: '&cSua loja deve estar em um plot e o mesmo deve ter dono.'
+   Changed: '&aVocê mudou o local da sua loja com sucesso.'
+   Created: '&aVocê criou sua loja com sucesso. Este é o menu de configuração.'
+   Teleported Other: '&aVocê teleportou para a loja do jogador: &e{player}&a.'
+   Closed Other: '&cA loja deste jogador está fechada.'
+
+Menu:
+   Loja:
+      Criar:
+         Name: '&8Criar uma loja'
+         Items:
+            Criar:
+               Name: '&a&lCriar'
+               Lore:
+               - ''
+               - '&7Clique para criar sua loja.'
+               - ''
+      Configurar:
+         Name: '&8Configuração da loja.'
+         Items:
+            Teleportar:
+               Name: '&a&lTeleportar'
+               Lore:
+               - ''
+               - '&7Clique para teleportar'
+               - '&7para sua loja.'
+               - ''
+            Deletar:
+               Name: '&c&lDeletar'
+               Lore:
+               - ''
+               - '&7Clique para deletar sua loja.'
+               - ''
+            Abrir:
+               Name: '&a&lAbrir'
+               Lore:
+               - ''
+               - '&7Clique para abrir sua loja.'
+               - ''
+            Fechar:
+               Name: '&c&lFechar'
+               Lore:
+               - ''
+               - '&7Clique para fechar sua loja.'
+               - ''
+            Setar Novo Local:
+               Name: '&e&lSetar novo Local'
+               Lore:
+               - ''
+               - '&7Clique para setar o novo local'
+               - '&7da sua loja.'
+               - ''
+   Lojas:
+      Name: '&8Lojas.'
+      Items:
+         Shop:
+            Name: '&aLoja do jogador: &e{player}'
+            Lore:
+            - ''
+            - '&7Clique para ir à loja deste jogador.'
+            - ''
+   Lojas Vazias:
+      Name: '&8Lojas Vazias.'
+      Items:
+         Vazia:
+            Name: '&cLojas vazias.'
+            Lore:
+            - ''
+            - '&7Não há lojas cadastradas.'
+            - ''

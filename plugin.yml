@@ -1,0 +1,9 @@
+name: EC_Lojas
+version: 1.0
+main: net.elicodes.lojas.Main
+author: EliCodes
+description: Um plugin simples de lojas.
+commands:
+   loja:
+   lojas:
+   lojaadmin:
